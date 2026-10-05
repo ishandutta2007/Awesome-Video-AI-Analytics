@@ -59,45 +59,45 @@ The global **Video AI Analytics market** is estimated at **$11.59 Billion to $18
 
 ## 🔓 Open-Source GitHub Projects
 
-Below is a curated list of leading open-source projects for video AI, object detection, surveillance analytics, and multimodal video reasoning, sorted by GitHub star count (descending). ⭐
+Below is a curated list of leading open-source projects for video AI, object detection, surveillance analytics, and multimodal video reasoning, sorted by GitHub Stars_Count (descending). ⭐
 
-- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) ⚡  
+- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** [![GitHub_Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) ⚡  
   **State-of-the-art real-time computer vision and object detection framework (YOLOv8 & YOLO26)**. Provides real-time object detection, instance segmentation, multi-object tracking (ByteTRACK/BoT-SORT), pose estimation, and oriented bounding boxes (OBB) for video streams.
 
-- **[roboflow/supervision](https://github.com/roboflow/supervision)** [![GitHub stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers) 🛠️  
+- **[roboflow/supervision](https://github.com/roboflow/supervision)** [![GitHub_Stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers) 🛠️  
   **Reusable computer vision utilities for video analytics**. Essential toolkit for video stream processing, zone detection, object counting, bounding box annotators, and tracking integrations with YOLO and ByteTrack.
 
-- **[blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)** [![GitHub stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers) 🏠  
+- **[blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)** [![GitHub_Stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers) 🏠  
   **NVR with real-time local AI object detection for IP cameras**. Integrates Google Coral TPU, TensorRT, and OpenVINO for low-latency, privacy-focused motion and object analysis over RTSP video streams.
 
-- **[m-bain/whisperX](https://github.com/m-bain/whisperX)** [![GitHub stars](https://img.shields.io/github/stars/m-bain/whisperX?style=social&color=white)](https://github.com/m-bain/whisperX/stargazers) 🎙️  
+- **[m-bain/whisperX](https://github.com/m-bain/whisperX)** [![GitHub_Stars](https://img.shields.io/github/stars/m-bain/whisperX?style=social&color=white)](https://github.com/m-bain/whisperX/stargazers) 🎙️  
   **Automatic speech recognition with word-level timestamp alignment and speaker diarization**. Ideal for video audio transcription, subtitle generation, and video text search indexing.
 
-- **[AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)** [![GitHub stars](https://img.shields.io/github/stars/AlexeyAB/darknet?style=social&color=white)](https://github.com/AlexeyAB/darknet/stargazers) ⚡  
+- **[AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)** [![GitHub_Stars](https://img.shields.io/github/stars/AlexeyAB/darknet?style=social&color=white)](https://github.com/AlexeyAB/darknet/stargazers) ⚡  
   **Classic C/CUDA open-source neural network framework for real-time video object detection (YOLOv4)**.
 
-- **[ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)** [![GitHub stars](https://img.shields.io/github/stars/ZoneMinder/zoneminder?style=social&color=white)](https://github.com/ZoneMinder/zoneminder/stargazers) 📹  
+- **[ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)** [![GitHub_Stars](https://img.shields.io/github/stars/ZoneMinder/zoneminder?style=social&color=white)](https://github.com/ZoneMinder/zoneminder/stargazers) 📹  
   **Full-featured, open-source video surveillance software system**. Supports state-of-the-art camera capture, analysis, and event recording for home and commercial security.
 
-- **[obss/sahi](https://github.com/obss/sahi)** [![GitHub stars](https://img.shields.io/github/stars/obss/sahi?style=social&color=white)](https://github.com/obss/sahi/stargazers) 🎯  
+- **[obss/sahi](https://github.com/obss/sahi)** [![GitHub_Stars](https://img.shields.io/github/stars/obss/sahi?style=social&color=white)](https://github.com/obss/sahi/stargazers) 🎯  
   **Slicing Aided Hyper Inference (SAHI)** for performing small object detection in high-resolution video frames and aerial surveillance footage.
 
-- **[open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2)** [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmaction2?style=social&color=white)](https://github.com/open-mmlab/mmaction2/stargazers) 🎬  
+- **[open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2)** [![GitHub_Stars](https://img.shields.io/github/stars/open-mmlab/mmaction2?style=social&color=white)](https://github.com/open-mmlab/mmaction2/stargazers) 🎬  
   **OpenMMLab Next-Generation Video Understanding Toolbox**. Provides state-of-the-art models for video action recognition, temporal action localization, spatial-temporal action detection, and video QA.
 
-- **[kerberos-io/agent](https://github.com/kerberos-io/agent)** [![GitHub stars](https://img.shields.io/github/stars/kerberos-io/agent?style=social&color=white)](https://github.com/kerberos-io/agent/stargazers) ⚙️  
+- **[kerberos-io/agent](https://github.com/kerberos-io/agent)** [![GitHub_Stars](https://img.shields.io/github/stars/kerberos-io/agent?style=social&color=white)](https://github.com/kerberos-io/agent/stargazers) ⚙️  
   **Open-source video surveillance agent written in C++**. Lightweight edge video processing agent designed for Kubernetes and Docker IoT deployments.
 
-- **[bytedance/vidi](https://github.com/bytedance/vidi)** [![GitHub stars](https://img.shields.io/github/stars/bytedance/vidi?style=social&color=white)](https://github.com/bytedance/vidi/stargazers) 🤖  
+- **[bytedance/vidi](https://github.com/bytedance/vidi)** [![GitHub_Stars](https://img.shields.io/github/stars/bytedance/vidi?style=social&color=white)](https://github.com/bytedance/vidi/stargazers) 🤖  
   **ByteDance's large multimodal model for video understanding**. Features spatio-temporal grounding, temporal retrieval, open-ended video QA, and video highlight generation.
 
-- **[scwsoft/vitcam](https://github.com/scwsoft/vitcam)** [![GitHub stars](https://img.shields.io/github/stars/scwsoft/vitcam?style=social&color=white)](https://github.com/scwsoft/vitcam/stargazers) 🍓  
+- **[scwsoft/vitcam](https://github.com/scwsoft/vitcam)** [![GitHub_Stars](https://img.shields.io/github/stars/scwsoft/vitcam?style=social&color=white)](https://github.com/scwsoft/vitcam/stargazers) 🍓  
   **AI-powered NVR for Raspberry Pi 4/5**. Runs RF-DETR object detection and tracking on low-cost single-board computers for edge video analytics.
 
-- **[Lalit-Dumka/VISION](https://github.com/Lalit-Dumka/VISION)** [![GitHub stars](https://img.shields.io/github/stars/Lalit-Dumka/VISION?style=social&color=white)](https://github.com/Lalit-Dumka/VISION/stargazers) 🔍  
+- **[Lalit-Dumka/VISION](https://github.com/Lalit-Dumka/VISION)** [![GitHub_Stars](https://img.shields.io/github/stars/Lalit-Dumka/VISION?style=social&color=white)](https://github.com/Lalit-Dumka/VISION/stargazers) 🔍  
   **Surveillance and monitoring system combining YOLOv8 and DeepFace**. Offers facial recognition, zone-based movement analytics, and PostgreSQL database logging.
 
-- **[Nateram/VideoCignium](https://github.com/Nateram/VideoCignium)** [![GitHub stars](https://img.shields.io/github/stars/Nateram/VideoCignium?style=social&color=white)](https://github.com/Nateram/VideoCignium/stargazers) ⚖️  
+- **[Nateram/VideoCignium](https://github.com/Nateram/VideoCignium)** [![GitHub_Stars](https://img.shields.io/github/stars/Nateram/VideoCignium?style=social&color=white)](https://github.com/Nateram/VideoCignium/stargazers) ⚖️  
   **Desktop application for automated forensic analysis of surveillance videos** (*SoftwareX*, 2026). Electron UI with Python backend offering high recall motion detection, YOLO object classification, OCR timestamps, and offline SQLite storage.
 
 ---
