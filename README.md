@@ -1,231 +1,125 @@
 # Awesome-Video-AI-Analytics
 
-## Top Video AI Analytics Ecosystem
+## Top Video AI Analytics Ecosystem & Tools
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Category](https://img.shields.io/badge/Category-Video%20AI%20Analytics-blue.svg)](https://github.com/ishandutta2007/Awesome-Video-AI-Analytics)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**Curated List of SaaS Products & Open-Source GitHub Projects for Video Understanding, Surveillance Analytics & Multimodal AI Reasoning**  
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Last updated: October 2026*
 
-*Focused on Video Understanding, Surveillance Analytics & Multimodal Reasoning*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Video AI Analytics**. These tools apply computer vision, speech recognition, and large multimodal models to extract structured intelligence from video — detecting objects, tracking movement, transcribing audio, and answering natural language queries about footage.
-
-
-
-**Examples** include Microsoft Azure Video Indexer, AWS Rekognition Video, Google Cloud Video Intelligence, Twelve Labs, Clarifai, AnyVision, BriefCam, IronYun, Valossa, and ViSenze (the category leaders).
-
-
-
-**Open-source emphasis**: Video AI analytics is a rapidly growing open-source domain. **VideoCignium** provides a complete forensic surveillance workstation with 99.59% motion detection recall , **VideoChain** enables edge-optimized multimodal RAG for video understanding , and **Vidi2** from ByteDance delivers state-of-the-art spatio-temporal grounding . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Azure Video Indexer](https://azure.microsoft.com/en-us/products/ai-services/video-indexer)**  
-
-  Cloud service for extracting insights from video and audio. Detects faces, objects, emotions, keywords, and provides transcription, translation, and content moderation. Integrated with Azure Media Services.
-
-
-
-- **[AWS Rekognition Video](https://aws.amazon.com/rekognition/video/)**  
-
-  AWS's video analysis service for object, face, and activity detection. Supports streaming and stored video analysis with integration into AWS Lambda and Kinesis.
-
-
-
-- **[Google Cloud Video Intelligence](https://cloud.google.com/video-intelligence)**  
-
-  Google's API for video analysis including label detection, shot change detection, explicit content detection, and speech transcription.
-
-
-
-- **[Twelve Labs](https://twelvelabs.io/)**  
-
-  Foundation model for video understanding enabling natural language search, summarization, and question answering over video content.
-
-
-
-- **[Clarifai](https://www.clarifai.com/)**  
-
-  AI platform with video analysis capabilities for content moderation, visual search, and custom model training.
-
-
-
-- **[AnyVision](https://www.anyvision.co/)**  
-
-  AI-powered video surveillance and recognition platform focused on security and access control.
-
-
-
-- **[BriefCam](https://www.briefcam.com/)**  
-
-  Video content analytics platform enabling rapid review of surveillance footage through object detection, tracking, and filtering.
-
-
-
-- **[IronYun](https://www.ironyun.com/)**  
-
-  AI video analytics platform for surveillance, offering object detection, face recognition, and behavior analysis.
-
-
-
-- **[Valossa](https://www.valossa.com/)**  
-
-  Video AI platform for content recognition, compliance, and media monitoring.
-
-
-
-- **[ViSenze](https://www.visenze.com/)**  
-
-  Visual search and image recognition platform with video commerce applications.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[VideoCignium](https://github.com/Nateram/VideoCignium)**  
-
-  **Desktop application for automated forensic analysis of surveillance videos**, published in *SoftwareX* (2026) . Electron-based UI with Python backend. **99.59% recall, 94.23% precision, F1-score 96.83%** in motion detection; 72.35% accuracy in object classification . Processes 12-hour video blocks in ~15 minutes — **40-50x faster than manual review** . Features interactive ROI tool to filter environmental noise, YOLO-based object classification, OCR timestamp extraction, structured Excel reporting, and **fully offline operation** with SQLite storage . **The most complete open-source forensic surveillance tool** — designed for criminology departments and resource-constrained police departments .
-
-
-
-- **[VideoChain](https://github.com/rahulsiiitm/videochain)**  
-
-  **Edge-optimized multimodal RAG framework for video understanding**, designed for consumer GPUs (tested on RTX 3050 with 4 GB VRAM) . Late-fusion architecture combining **MobileNetV3 vision classification**, **Whisper audio transcription**, and **LLM reasoning** (Ollama/Llama 3 or Gemini) . Features adaptive keyframe extraction via Gaussian-blurred frame differencing, timestamp-synchronized multimodal alignment, and structured JSON knowledge base output . **No cloud inference dependency** for core pipeline. Best for security, retail analytics, education, and personal content search .
-
-
-
-- **[Vidi2](https://github.com/bytedance/vidi)**  
-
-  **ByteDance's large multimodal model for video understanding and creation**, presented in the Vidi tech report . **State-of-the-art in Spatio-Temporal Grounding and temporal retrieval**. Features temporal retrieval (find precise time ranges matching text queries), spatio-temporal grounding (draw bounding boxes around queried objects throughout video), open-ended video QA, and automatic highlight generation with titles . Available in 7B and 9B variants. **The most capable open-source video understanding model** for natural language querying of footage.
-
-
-
-- **[reelgrep](https://github.com/pypi/reelgrep)**  
-
-  **Local video library search and analysis tool** with a web UI . Features FTS5 full-text search across transcripts, person search with face embeddings (supports positive and negative reference images for precision), SRT subtitle export, contact sheet generation, WebP loop creation, and sub-clip extraction with stream-copy or re-encode options . **Privacy-focused** — binds to loopback only, reads exclusively from local SQLite index . **Best for researchers, lecturers, and anyone needing to search across large video collections.**
-
-
-
-- **[YunKan](https://github.com/martin888/yunkan)**  
-
-  **Self-hosted AI NVR/VMS in a single Docker container** . On-device AI for person/vehicle/face/plate/pose/fall detection, **no cloud dependency, no API keys required** . Features 24/7 continuous recording with motion-event highlights, AI scene understanding with natural language summaries, semantic event search, sub-second WebRTC live viewing, and Home Assistant MQTT integration . Works with any RTSP/ONVIF camera . **The most complete open-source self-hosted AI surveillance platform** — a privacy-first alternative to Frigate and ZoneMinder.
-
-
-
-- **[FLIQ](https://pypi.org/project/fliqx/)**  
-
-  **Lightweight face recognition acceleration layer for Python** . Single package combining detection, embedding, tracking, caching, vector search, and streaming helpers. **Runs with only NumPy installed** — optional extras unlock FastAPI, OpenCV, FAISS, and ONNX acceleration . Features face registration/recognition for still images and video streams, tracking-aware recognition, motion detection with adaptive frame scheduling, and FAISS-backed similarity search with NumPy fallback . **Best for building custom face recognition pipelines** without heavyweight dependencies.
-
-
-
-- **[ViTCam](https://github.com/scwsoft/vitcam)**  
-
-  **AI-powered NVR for Raspberry Pi 4/5** . Runs on CPU inference mode suitable for single-camera or lightweight monitoring . Features RTSP stream support, **RF-DETR object detection**, object tracking, detection event logging, snapshot capture, and WebRTC streaming . **Mix modes across cameras** — run AI detection on entrance cameras while keeping indoor cameras in standard NVR mode . **The most accessible entry point for DIY AI surveillance** on low-cost hardware.
-
-
-
-- **[FluxState Edge SDK](https://pypi.org/project/fluxstate-security/)**  
-
-  **Privacy-preserving contextual edge video analytics for enterprise security** . Features **Agentic VLM Reasoner** running Qwen2.5-VL locally via MLX on Apple Silicon, **Adaptive Intelligence** with feedback API to suppress false positives on-device, **Semantic Retrieval (RAG)** with on-device ContextLedger, and **Episodic Memory** buffering 10 minutes of scene states . **Privacy-by-design** — actively zeroes image buffers post-inference via C-level memset . Behavioral anomalies serialized to local SQLite for temporal forensics . **Best for enterprise security teams** wanting deep contextual understanding without cloud dependency.
-
-
-
-- **[EvilEye](https://pypi.org/project/evileye/)**  
-
-  **Extensible video surveillance analytics pipeline** with YOLO detector integration, multi-camera tracking, and zone-based analytics . Features scheduled restarts, RTSP/video file/device source support, source splitting for multi-region analysis, and configurable ROI . **Best for developers building custom surveillance pipelines** with modular detector and tracker configuration.
-
-
-
-- **[VISION](https://github.com/Lalit-Dumka/VISION)**  
-
-  **Comprehensive surveillance and monitoring system** combining YOLOv8 object detection, DeepFace face recognition, and PostgreSQL database management . Features face database management with embedding storage, real-time recognition with similarity scoring, zone-based movement tracking with polygon drawing, movement analytics between zones, and historical data logging with CSV export . **Best for organizations needing an integrated face recognition + zone tracking solution** with database persistence.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **YOLO26 (Ultralytics)** — Edge-focused detector released January 2026, AGPL-3.0 licensed. NMS-free inference, open-vocabulary detection via YOLOE-26x, 40.9 mAP50-95 at nano scale . **The state-of-the-art object detector for video pipelines** — note AGPL requires source disclosure for closed-source products .
-
-- **VideoSearch-R1** — Iterative video retrieval and reasoning via soft query refinement, presented at ECCV 2026 . 2B parameter model trained for DiDeMo and ActivityNet video retrieval tasks.
-
-- **QUAG** — Query-centric Audio-Visual Cognition Network for moment retrieval, segmentation, and step-captioning . State-of-the-art on HIREST dataset with joint multi-task learning.
-
-- **VideoSearcher** — Multi-tool agentic reasoning for video deep research via reinforcement learning, EMNLP 2026 .
-
-- **Lecture Mind** — Event-aware lecture summarizer using DINOv2 visual encoder and Whisper audio transcription for context-aware summaries and multimodal retrieval .
-
-
-
-**Frameworks for building custom video AI solutions**: Combine **VideoCignium** for forensic-grade surveillance analysis with offline operation , **VideoChain** for edge-optimized multimodal RAG on consumer GPUs , and **Vidi2** for state-of-the-art natural language video querying . Use **YunKan** for a complete self-hosted AI NVR/VMS deployment , **FLIQ** for lightweight face recognition pipelines , or **ViTCam** for Raspberry Pi-based surveillance . For enterprise security with VLM reasoning, **FluxState Edge SDK** provides privacy-preserving contextual analytics . Note that true commercial platforms with managed infrastructure, pre-trained industry-specific models, and global content delivery remain primarily commercial territory; open-source stacks provide strong detection, tracking, and multimodal reasoning foundations that require integration for complete video intelligence.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Video analytics tools process sensitive footage and potentially identifiable information. Self-hosted solutions require proper security hardening, access controls, and compliance with privacy regulations (GDPR, CCPA). **Facial recognition and person tracking carry significant legal and ethical obligations** — verify local regulations before deployment.
-
-- **YOLO26 is AGPL-3.0 licensed** — closed-source products using it must purchase an Enterprise licence or disclose source code .
-
-- Open-source video analytics tools vary significantly in maturity. VideoCignium is designed for sequential processing and may not scale linearly for massive multi-camera city-wide deployments without optimization . Evaluate performance requirements before production deployment.
-
-- The open-source ecosystem provides strong detection, tracking, and multimodal reasoning foundations, but managed infrastructure, industry-specific pre-trained models, and enterprise support remain primarily commercial offerings.
-
-
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Video AI Analytics**. These tools apply computer vision, deep learning, speech recognition, and large multimodal models (LMMs / VLMs) to extract structured intelligence from video streams — detecting objects, tracking movement, recognizing facial features, transcribing audio, and enabling natural language temporal QA and forensic search over video archives.
 
 ---
 
+## Table of Contents
 
+- [Market Intelligence & Industry Overview](#market-intelligence--industry-overview)
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for security engineers, forensic analysts, video AI researchers, and developers building video intelligence systems.**  
+---
 
-Let's make video AI analytics more open, transparent, and privacy-respecting.
+## Market Intelligence & Industry Overview
+
+The global **Video AI Analytics market** is estimated at **$11.59 Billion to $18.8 Billion in 2026**, projecting a high compound annual growth rate (CAGR) of **19.5% to 23.1%** through 2030+. 
+
+> **Market Fragmentation Note:** The sector is **moderately fragmented** — combining tech giants providing infrastructure-level video APIs with specialized computer vision, enterprise surveillance, and video foundation model startups. No single vendor holds a dominant "winner-take-all" monopoly.
+
+---
+
+## SaaS / Hosted Platforms
+
+| Product / Platform | Company Size (Revenue / Valuation) | Starting Pricing (Paid Tier) | Free Tier / Trial Limit | Key Video AI Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Azure Video Indexer](https://azure.microsoft.com/en-us/products/ai-services/video-indexer)** | **$245B+ Revenue / $3.1T+ Valuation** (Microsoft) | Pay-as-you-go (~$0.15/min video indexing) | **2,400 free indexing minutes** (API trial via dev portal) | Cloud service for extracting video & audio insights, face/emotion detection, OCR, transcription & scene segmentation. |
+| **[Google Cloud Video Intelligence](https://cloud.google.com/video-intelligence)** | **$307B+ Revenue / $2.1T+ Valuation** (Alphabet) | Pay-as-you-go (~$0.10/min stored video) | **1,000 free minutes/month** (stored & streamed analysis) | Label detection, shot change detection, explicit content moderation, object tracking & text detection. |
+| **[AWS Rekognition Video](https://aws.amazon.com/rekognition/video/)** | **$107B+ Segment Revenue / $2.0T+ Valuation** (Amazon) | Pay-as-you-go ($0.10/min video processed) | **60 free video analysis minutes/month** (first 12 months) | Video analysis service for object, face, pathing, and activity detection across stored & live RTSP streams. |
+| **[BriefCam](https://www.briefcam.com/)** | **~$90M Acquisition / ~$9.1M Revenue** (Canon Group) | Per-camera annual license (Quote-based via partner network) | **Temporary PoC evaluation license** (via sales authorization) | Video Synopsis®, rapid surveillance review, multi-camera tracking, vehicle attribute search & zone analytics. |
+| **[Twelve Labs](https://twelvelabs.io/)** | **~$77M Funding / ~$150M+ Valuation** | $0.042 per minute indexed ($2.50/hour) | **600 free cumulative minutes** (Search, Embed & Analyze APIs) | Video foundation models enabling zero-shot video search, automatic summarization, and natural language QA. |
+| **[Clarifai](https://www.clarifai.com/)** | **~$101M Funding / ~$16.2M Revenue** | $30/month (Essential Plan) | **1,000 free operations/month** (Community Plan) | Full-stack AI computer vision platform for video classification, content moderation & visual search. |
+| **[AnyVision / Oosto](https://www.anyvision.co/)** | **~$125M Acquisition / ~$352M Total Funding** | Enterprise tier quote (Custom deployment pricing) | **Sales-guided live demo** (No public self-service trial) | Enterprise-grade facial recognition, access control, and watchlist monitoring for physical security. |
+| **[IronYun / Vaidio](https://www.ironyun.com/)** | **~$11.4M ARR / Venture-backed** | Enterprise subscription quote (Per-camera licensing) | **Sales-guided live demo** (Custom PoC evaluation available) | AI Vision Platform with 30+ video analytics features (license plate recognition, intrusion, fall detection). |
+| **[Valossa](https://www.valossa.com/)** | **Venture-backed / €29 Credit Pack** | €14.90/month (Valossa Assistant) | **7-day free trial** (No credit card required) | AI video analysis for automated content indexing, media compliance, explicit content detection & metadata generation. |
+| **[ViSenze](https://www.visenze.com/)** | **~$34M Funding / Venture-backed** | Custom enterprise contract (Volume quote) | **30-day free trial** (Available upon demo request) | Visual search and image/video recognition platform optimized for video e-commerce & retail recommendation. |
+
+---
+
+## Open-Source GitHub Projects
+
+Below is a curated list of leading open-source projects for video AI, object detection, surveillance analytics, and multimodal video reasoning, sorted by GitHub star count (descending).
+
+- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
+  **State-of-the-art real-time computer vision and object detection framework (YOLOv8 & YOLO26)**. Provides real-time object detection, instance segmentation, multi-object tracking (ByteTRACK/BoT-SORT), pose estimation, and oriented bounding boxes (OBB) for video streams.
+
+- **[roboflow/supervision](https://github.com/roboflow/supervision)** [![GitHub stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
+  **Reusable computer vision utilities for video analytics**. Essential toolkit for video stream processing, zone detection, object counting, bounding box annotators, and tracking integrations with YOLO and ByteTrack.
+
+- **[blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)** [![GitHub stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers)  
+  **NVR with real-time local AI object detection for IP cameras**. Integrates Google Coral TPU, TensorRT, and OpenVINO for low-latency, privacy-focused motion and object analysis over RTSP video streams.
+
+- **[m-bain/whisperX](https://github.com/m-bain/whisperX)** [![GitHub stars](https://img.shields.io/github/stars/m-bain/whisperX?style=social&color=white)](https://github.com/m-bain/whisperX/stargazers)  
+  **Automatic speech recognition with word-level timestamp alignment and speaker diarization**. Ideal for video audio transcription, subtitle generation, and video text search indexing.
+
+- **[AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)** [![GitHub stars](https://img.shields.io/github/stars/AlexeyAB/darknet?style=social&color=white)](https://github.com/AlexeyAB/darknet/stargazers)  
+  **Classic C/CUDA open-source neural network framework for real-time video object detection (YOLOv4)**.
+
+- **[ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)** [![GitHub stars](https://img.shields.io/github/stars/ZoneMinder/zoneminder?style=social&color=white)](https://github.com/ZoneMinder/zoneminder/stargazers)  
+  **Full-featured, open-source video surveillance software system**. Supports state-of-the-art camera capture, analysis, and event recording for home and commercial security.
+
+- **[obss/sahi](https://github.com/obss/sahi)** [![GitHub stars](https://img.shields.io/github/stars/obss/sahi?style=social&color=white)](https://github.com/obss/sahi/stargazers)  
+  **Slicing Aided Hyper Inference (SAHI)** for performing small object detection in high-resolution video frames and aerial surveillance footage.
+
+- **[open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2)** [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmaction2?style=social&color=white)](https://github.com/open-mmlab/mmaction2/stargazers)  
+  **OpenMMLab Next-Generation Video Understanding Toolbox**. Provides state-of-the-art models for video action recognition, temporal action localization, spatial-temporal action detection, and video QA.
+
+- **[kerberos-io/agent](https://github.com/kerberos-io/agent)** [![GitHub stars](https://img.shields.io/github/stars/kerberos-io/agent?style=social&color=white)](https://github.com/kerberos-io/agent/stargazers)  
+  **Open-source video surveillance agent written in C++**. Lightweight edge video processing agent designed for Kubernetes and Docker IoT deployments.
+
+- **[bytedance/vidi](https://github.com/bytedance/vidi)** [![GitHub stars](https://img.shields.io/github/stars/bytedance/vidi?style=social&color=white)](https://github.com/bytedance/vidi/stargazers)  
+  **ByteDance's large multimodal model for video understanding**. Features spatio-temporal grounding, temporal retrieval, open-ended video QA, and video highlight generation.
+
+- **[scwsoft/vitcam](https://github.com/scwsoft/vitcam)** [![GitHub stars](https://img.shields.io/github/stars/scwsoft/vitcam?style=social&color=white)](https://github.com/scwsoft/vitcam/stargazers)  
+  **AI-powered NVR for Raspberry Pi 4/5**. Runs RF-DETR object detection and tracking on low-cost single-board computers for edge video analytics.
+
+- **[Lalit-Dumka/VISION](https://github.com/Lalit-Dumka/VISION)** [![GitHub stars](https://img.shields.io/github/stars/Lalit-Dumka/VISION?style=social&color=white)](https://github.com/Lalit-Dumka/VISION/stargazers)  
+  **Surveillance and monitoring system combining YOLOv8 and DeepFace**. Offers facial recognition, zone-based movement analytics, and PostgreSQL database logging.
+
+- **[Nateram/VideoCignium](https://github.com/Nateram/VideoCignium)** [![GitHub stars](https://img.shields.io/github/stars/Nateram/VideoCignium?style=social&color=white)](https://github.com/Nateram/VideoCignium/stargazers)  
+  **Desktop application for automated forensic analysis of surveillance videos** (*SoftwareX*, 2026). Electron UI with Python backend offering high recall motion detection, YOLO object classification, OCR timestamps, and offline SQLite storage.
+
+---
+
+### Additional Open-Source Frameworks & Libraries
+
+- **[VideoChain](https://github.com/rahulsiiitm/videochain)** — Edge-optimized multimodal RAG framework for video understanding on consumer GPUs (RTX 3050). Combines MobileNetV3 visual classification, Whisper transcription, and Ollama/Llama 3 reasoning.
+- **[reelgrep](https://github.com/pypi/reelgrep)** — Local video library full-text transcript search and facial embedding search tool with web UI.
+- **[YunKan](https://github.com/martin888/yunkan)** — Self-hosted AI NVR/VMS in a single Docker container with on-device detection for person/vehicle/face/plate without cloud dependencies.
+- **[FLIQ](https://pypi.org/project/fliqx/)** — Lightweight face recognition acceleration layer for Python with NumPy, OpenCV, FAISS, and ONNX backends.
+- **[FluxState Edge SDK](https://pypi.org/project/fliqx/)** — Privacy-preserving contextual edge video analytics with Agentic VLM Reasoner (Qwen2.5-VL via MLX on Apple Silicon).
+- **[EvilEye](https://pypi.org/project/evileye/)** — Extensible video surveillance analytics pipeline with YOLO detector integration and multi-camera zone tracking.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Add or update entries in `README.md` following the tabular format for SaaS products and star-badge format for open-source repositories.
+3. Ensure entries include accurate pricing details, free tier limits, company financial metrics, or GitHub star links.
+4. Submit a Pull Request with a clear description of your changes.
+
+---
+
+## Disclaimer
+
+- This list is **community-curated** for research and evaluation purposes.
+- Video analytics tools process sensitive visual footage and personal data. Always verify compliance with local laws and regulations (GDPR, CCPA) before deploying facial recognition or automated surveillance systems.
+- Brand names, logos, and trademarks belong to their respective owners.
+
+---
+
+**Made for computer vision engineers, forensic analysts, video AI researchers, and surveillance developers.**
